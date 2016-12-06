@@ -24,3 +24,12 @@ household['KID_CATEGORY_DESC']=household['KID_CATEGORY_DESC'].astype('category')
 household['HOUSEHOLD_KEY']=household['HOUSEHOLD_KEY'].astype(np.int16)
 print household.dtypes
 
+household['AGE_DESC']=household['AGE_DESC'].astype('category')
+household['MARITAL_STATUS_CODE']=household['MARITAL_STATUS_CODE'].astype('category')
+household['INCOME_DESC']=household['INCOME_DESC'].astype('category')
+household['HOMEOWNER_DESC']=household['HOMEOWNER_DESC'].astype('category')
+household['HH_COMP_DESC']=household['HH_COMP_DESC'].astype('category')
+household['HOUSEHOLD_SIZE_DESC']=household['HOUSEHOLD_SIZE_DESC'].astype('category')
+household['KID_CATEGORY_DESC']=household['KID_CATEGORY_DESC'].astype('category')
+household['HOUSEHOLD_KEY']=household['HOUSEHOLD_KEY'].astype(np.int16)
+print household.dtypes
